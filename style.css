@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.mainDiv {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    text-align: center;
+    align-self: center;
+}
+.header > h1:nth-child(1) {
+    font-size: 50px;
+    margin: 15px;
+    color: #283044;
+    font-weight: bolder;
+}
+.header > h1:nth-child(2) {
+    font-size: 30px;
+    margin: 15px;
+    color: #283044;
+    font-weight: 900;
+}
+.header > p {
+    font-size: 25px;
+    margin: 15px;
+    color: #283044;
+    font-weight: 900;
+}
+span {
+    color: #78a1bb;
+}
+.textDiv {
+    align-self: center;
+    grid-area: 1/2;
+    color: #283044;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textDiv > h1 {
+    margin-bottom: 25px;
+}
+.textDiv > div {
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.wrapper {
+    width:  500px;
+    height: 500px;
+    padding: 50px;
+    background-color: #78a1bb;
+    border:5px solid #283044;
+}   
+#cards {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:  500px;
+    background-color: #ebf5ee;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid #283044;
+}
+.card {
+    background-color: #78a1bb;
+    cursor: pointer;
+    height: 102px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 102px;
+    transition:transform 0.3s;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+}
+.frontText, .backText {
+    font-size: 37px;
+    color: #283044;
+    font-weight: bold;
+}
+.front {
+    display: block;
+}
+.Not-front {
+    display: none;
+}
+.back {
+    display: none;
+}
+.Not-back {
+    display: block;
+    transform: rotateY(180deg);
+}
+.is-flipped{
+    transform: rotateY(180deg);
+}
+.card:hover {
+    outline: 5px solid #283044;
+}
+span {
+    color: #283044;
+}
