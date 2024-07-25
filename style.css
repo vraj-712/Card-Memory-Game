@@ -7,19 +7,16 @@ body{
     box-sizing: border-box;
 }
 .mainDiv {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
     width: 100%;
-    height: 100vh;
 }
 .header {
+    width: 100%;
+    height: 100vh;
     text-align: center;
-    align-self: center;
+    align-content: center;
 }
 .header > h1:nth-child(1) {
-    font-size: 50px;
-    margin: 15px;
+    font-size: 85px;
     color: #283044;
     font-weight: bolder;
 }
@@ -39,24 +36,39 @@ span {
     color: #78a1bb;
 }
 .textDiv {
+    text-align: center;
     align-self: center;
-    grid-area: 1/2;
+    /* padding: 50px; */
     color: #283044;
     margin-left: auto;
     margin-right: auto;
 }
 .textDiv > h1 {
-    margin-bottom: 25px;
+    /* margin-bottom: 15px; */
+    font-size: 50px;
+    padding: 25px;
 }
 .textDiv > div {
     font-weight: bolder;
     margin-bottom: 5px;
     font-size: 20px;
 }
+#score-board {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-left: auto;
+    font-size: 25px;
+    margin-right: auto;
+}
 .wrapper {
+    clear: both;
     width:  500px;
     height: 500px;
+    margin-top: 25px;
     padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #78a1bb;
     border:5px solid #283044;
 }   
@@ -113,6 +125,7 @@ span {
 .card:hover {
     outline: 5px solid #283044;
 }
+
 span {
     color: #283044;
 }
