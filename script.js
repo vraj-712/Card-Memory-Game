@@ -1,5 +1,5 @@
-let emojiArray = ["😂", "😂", "😍", "😍", "🎈", "🎈", "🍕", "🍕", "💛", "💛", "🍪", "🍪", "🐺", "🐺", "👻", "👻"];
-let totalMove = 8;
+let emojiArray = ["😂", "😂", "😍", "😍", "🎈", "🎈", "🍕", "🍕", "💛", "💛", "🍪", "🍪", "🐺", "🐺", "👻", "👻", "🌍", "🌍", "🗽", "🗽"];
+let totalMove = 15;
 let cradMatchedScore = 0;
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -43,11 +43,11 @@ let twoCardArray = [];
 
 cards.forEach((card) => {
   card.addEventListener("click", () => {
-    if (totalMove > 0) {
-      flipCard(card)
-    } else {
-      alert("Opps !! You Are Out of Moves!!")
-    }
+      if (totalMove > 0) {
+        flipCard(card)
+      } else {
+        alert("Opps !! You Are Out of Moves!!")
+      }
   });
 });
 
