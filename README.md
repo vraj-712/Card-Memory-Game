@@ -15,7 +15,7 @@ The Card Memory Game is a classic, interactive matching game that challenges pla
 1. **Clone the repository**:
    ```bash
     
-   git clone https://github.com/your-username/card-memory-game.git](https://github.com/vraj-712/Card-Memory-Game.git
+   git clone https://github.com/vraj-712/Card-Memory-Game.git
     
 2. Run the Project
    ```bash
