@@ -92,6 +92,9 @@ function checkCardContent() {
     });
     totalMove--;
   }
+  if (matchedCrads.length == cards.length) {
+    alert("Congratulation !! You Won the Game");
+  }
   document.getElementById("left-move").innerText = totalMove;
   twoCardArray = [];
 }
