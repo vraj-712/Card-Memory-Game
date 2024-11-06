@@ -1,4 +1,4 @@
-# Card Memory Game
+# Card Memory Game 🎯 🧠
 
 A fun and interactive card memory game built with JS. The objective is to match all pairs of cards by remembering their positions on the board.
 The Card Memory Game is a classic, interactive matching game that challenges players' memory and concentration skills. In this game, a set of cards are laid face-down on a grid. Each card has an identical pair hidden somewhere else on the board. The player’s goal is to reveal and match all pairs of cards by remembering their positions.
