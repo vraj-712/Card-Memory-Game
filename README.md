@@ -3,9 +3,6 @@
 A fun and interactive card memory game built with JS. The objective is to match all pairs of cards by remembering their positions on the board.
 The Card Memory Game is a classic, interactive matching game that challenges players' memory and concentration skills. In this game, a set of cards are laid face-down on a grid. Each card has an identical pair hidden somewhere else on the board. The player’s goal is to reveal and match all pairs of cards by remembering their positions.
 
-## Demo
-[Live Demo](https://card-memory-game-five.vercel.app/)
-
 ## Features
 - Flip cards to reveal images.
 - Match pairs of cards to win the game.
@@ -75,7 +72,7 @@ The Card Memory Game is a classic, interactive matching game that challenges pla
 - Open a Pull Request
 
 ## License
-- This project is licensed under the MIT License. See the [LICENSE](https://github.com/vraj-712/PasswordGenerator/blob/main/LICENSE) file for details.
+- This project is licensed under the MIT License. See the [LICENSE]([https://github.com/vraj-712/PasswordGenerator/blob/main/LICENSE](https://github.com/vraj-712/Card-Memory-Game/blob/main/LICENSE)) file for details.
 
 ## Acknowledgments
 - Thanks to the open-source community for their support and contributions!
