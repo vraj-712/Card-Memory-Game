@@ -55,14 +55,17 @@ function flipCard(card) {
   if (twoCardArray.includes(card) || matchedCrads.includes(card)) {
     alert("Plizzzz Choose Another card");
   } else {
-    toggleCardCss(card);
-    twoCardArray.push(card);
+    
+      if (twoCardArray.length < 2) { 
+        toggleCardCss(card); 
+        twoCardArray.push(card)
+      };
   }
 
   if (twoCardArray.length == 2) {
     setTimeout(() => {
       checkCardContent();
-    }, 1500);
+    }, 800);
   } else {
     if (twoCardArray.length <= 2 && !checkCardIsFliped(card)) {
       if (card.classList.contains("is-flipped")) {
@@ -94,6 +97,7 @@ function checkCardContent() {
   }
   if (matchedCrads.length == cards.length) {
     alert("Congratulation !! You Won the Game");
+    window.location.reload();
   }
   document.getElementById("left-move").innerText = totalMove;
   twoCardArray = [];
