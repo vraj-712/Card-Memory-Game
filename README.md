@@ -72,7 +72,7 @@ The Card Memory Game is a classic, interactive matching game that challenges pla
 - Open a Pull Request
 
 ## License
-- This project is licensed under the MIT License. See the [LICENSE]([https://github.com/vraj-712/PasswordGenerator/blob/main/LICENSE](https://github.com/vraj-712/Card-Memory-Game/blob/main/LICENSE)) file for details.
+- This project is licensed under the MIT License. See the [LICENSE](https://github.com/vraj-712/Card-Memory-Game/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 - Thanks to the open-source community for their support and contributions!
